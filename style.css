@@ -8,6 +8,22 @@
     color: white;
 
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    
+    gap: 20px;
+}
+
+.header .logo   {
+    max-height: 80px;
+}
+
+
+.headlinks a  {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.headlinks a:hover  {
+    text-decoration: underline;
 }
