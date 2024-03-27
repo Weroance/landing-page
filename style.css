@@ -34,3 +34,10 @@
     align-items: center;
     gap: 20px;
 }
+
+.intro-box   {
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    
+}
