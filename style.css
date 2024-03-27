@@ -3,9 +3,6 @@
     font-family: "Roboto";
 }
 
-body{
-    
-}
 
 .header {
     background-color: #1f2937;
@@ -24,8 +21,9 @@ body{
 
 
 .headlinks a  {
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px;
     margin-left: 12px;
 }
 
@@ -37,7 +35,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .introbox   {
@@ -51,9 +49,19 @@ body{
 }
 
 .herobox h1  {
-    margin-bottom: 5px;     
+    margin-bottom: 5px;
+    color: #e5e7eb;     
 }
 
+.herobox button {
+    font-weight:700;
+    display: block;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px ;
+    padding: 5px 1em 6px;
+    margin-top: 8px;
+}
 .heroimage  {
     width: 500px;
     object-fit:scale-down;
