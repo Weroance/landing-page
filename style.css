@@ -3,25 +3,30 @@
     font-family: "Roboto";
 }
 
+body{
+    
+}
+
 .header {
     background-color: #1f2937;
     color: white;
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 15%;
     gap: 20px;
 }
 
 .header .logo   {
     max-height: 48px;
+    margin-right: 40px;
 }
 
 
 .headlinks a  {
     color: white;
     text-decoration: none;
-    margin: 0 12px;
+    margin-left: 12px;
 }
 
 .headlinks a:hover  {
@@ -39,9 +44,17 @@
     color: white;
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    padding: 100px 15%;
        
 }
 
+.herobox h1  {
+    margin-bottom: 5px;     
+}
+
 .heroimage  {
-    height: 100px;
+    width: 500px;
+    object-fit:scale-down;
 }
