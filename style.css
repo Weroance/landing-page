@@ -84,6 +84,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin: 60px;
 }
 
 .card img {
@@ -92,11 +93,27 @@
     height: 250px;
     object-fit: cover ;
     border: solid 8px #3882f6 ;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
-.quote  {
-    background-color: #e5e7eb;
+.quotebox   {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    padding: 10% 25%;
+    margin: 60 0px
+}
 
+.quotebox .quote  {
+    
+    font-size: 36px;
+    font-style: italic;
+}
+
+.att    {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px
 }
