@@ -83,5 +83,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+}
+
+.card img {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    object-fit: cover ;
+    border: solid 8px #3882f6 ;
+    border-radius: 8px;
 }
